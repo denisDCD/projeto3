@@ -16,3 +16,13 @@ section a.back {
 section a.back:hover {
     color: #ff0000;
 }
+
+div img#first_image {
+    height: 300px;
+    margin-left: 25%;
+}
+
+section img {
+    height: 200px;
+    float: left;
+}

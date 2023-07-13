@@ -1,0 +1,26 @@
+body div#menu{
+    /* align="right" style="margin-right: 100px; background-color: #ff00007e; */
+    text-align: right;
+    margin-right: 100px;
+    background-color: #ff000070;
+}
+
+div a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17pt;
+}
+
+div a:hover{
+    text-decoration:underline;
+    color: #ff0000;
+    font-size: 30pt;
+    transition: 1s;
+}
+
+div a::before{
+    text-decoration:underline;
+    color: #ff0000;
+    font-size: 17pt;
+    transition: 1s;
+}
