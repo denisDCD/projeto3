@@ -1,8 +1,17 @@
-body div#menu{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+div#menu{
     /* align="right" style="margin-right: 100px; background-color: #ff00007e; */
     text-align: right;
-    margin-right: 100px;
-    background-color: #ff000070;
+    /* margin-right: 100px; */
+    background-color: rgb(254, 229, 197);
+    padding-right: 10rem;
+    border-bottom: solid;
+    margin-bottom: 20px;
 }
 
 div a {
@@ -13,14 +22,45 @@ div a {
 
 div a:hover{
     text-decoration:underline;
-    color: #ff0000;
-    font-size: 30pt;
+    color: #FF0000;
+    background-color: #ff000059;
     transition: 1s;
 }
 
-div a::before{
-    text-decoration:underline;
-    color: #ff0000;
-    font-size: 17pt;
-    transition: 1s;
+.titulo {
+    text-align: center;
+    background-color: rgb(254, 229, 197);
+    border-style: double;
+    width: 100%;
+    height: 50px;
+}
+
+#fundo {
+    display: flex;
+    background-color: rgb(254, 229, 197);
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+}
+
+.master {
+    display: flex;
+    border: 1px solid #000000;
+}
+
+.titulo_col {
+    text-align: center;
+    background-color: rgb(254, 229, 197);
+    color: rgb(255, 156, 26);
+}
+
+.col_left {
+    margin-right: 30px;
+    text-align: justify;
+}
+
+.col_right {
+    text-align: justify;
 }
